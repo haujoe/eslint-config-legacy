@@ -1,6 +1,6 @@
 {
 	"name": "@flynoe/eslint-config-svelte",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"author": "Flynoe <hi@flynoe.com> (https://flynoe.com)",
 	"description": "Flynoe's eslint config for svelte.",
 	"keywords": [
