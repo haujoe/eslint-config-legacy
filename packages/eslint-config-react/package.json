@@ -1,0 +1,45 @@
+{
+	"name": "@flynoe/eslint-config-react",
+	"version": "0.0.0",
+	"author": "Flynoe <hi@flynoe.com> (https://flynoe.com)",
+	"description": "Flynoe's eslint config for react.",
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"eslint-react",
+		"react"
+	],
+	"homepage": "https://github.com/flynoe/eslint-config#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/flynoe/eslint-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/flynoe/eslint-config/issues"
+	},
+	"license": "MIT",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"lint": "eslint . --config=index.js"
+	},
+	"dependencies": {
+		"@flynoe/eslint-config-ts": "workspace:*",
+		"eslint-define-config": "^1.21.0",
+		"eslint-plugin-react": "^7.32.2",
+		"eslint-plugin-react-hooks": "^4.6.0"
+	},
+	"devDependencies": {
+		"react": "^18.2.0",
+		"typescript": "^5.1.6"
+	},
+	"peerDependencies": {
+		"eslint": ">=8.40.0",
+		"prettier": "^3.0.0"
+	}
+}
