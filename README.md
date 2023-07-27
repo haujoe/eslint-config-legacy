@@ -30,12 +30,12 @@ pnpm add -D eslint prettier @flynoe/eslint-config @flynoe/prettier-config
 
 ```json
 {
-	"extends": "@flynoe"
+  "extends": "@flynoe"
 }
 ```
 
 ```js
-module.exports = require("@flynoe/prettier-config");
+module.exports = require('@flynoe/prettier-config')
 ```
 
 > You don't need `.eslintignore` normally as it has been provided by the preset.
@@ -46,10 +46,10 @@ For example:
 
 ```json
 {
-	"scripts": {
-		"lint": "eslint . && prettier . --check",
-		"lint:fix": "eslint . -- fix && prettier . --write"
-	}
+  "scripts": {
+    "lint": "eslint . && prettier . --check",
+    "lint:fix": "eslint . -- fix && prettier . --write"
+  }
 }
 ```
 
@@ -59,11 +59,11 @@ Create `.vscode/settings.json`
 
 ```json
 {
-	"editor.defaultFormatter": "esbenp.vscode-prettier",
-	"editor.formatOnSave": true,
-	"editor.codeActionsOnSave": {
-		"source.fixAll.eslint": true
-	}
+  "editor.defaultFormatter": "esbenp.vscode-prettier",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
 ```
 

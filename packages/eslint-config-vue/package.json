@@ -1,37 +1,37 @@
 {
-	"name": "@flynoe/eslint-config-vue",
-	"version": "1.0.0",
-	"author": "Flynoe <hi@flynoe.com> (https://flynoe.com)",
-	"description": "Flynoe's eslint config for vue.",
-	"keywords": [
-		"eslint",
-		"eslint-config",
-		"eslint-vue",
-		"vue"
-	],
-	"homepage": "https://github.com/flynoe/eslint-config#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/flynoe/eslint-config.git"
-	},
-	"bugs": {
-		"url": "https://github.com/flynoe/eslint-config/issues"
-	},
-	"license": "MIT",
-	"main": "index.js",
-	"files": [
-		"eslint-plugin-vue"
-	],
-	"publishConfig": {
-		"access": "public"
-	},
-	"dependencies": {
-		"@flynoe/eslint-config-ts": "workspace:*",
-		"eslint-define-config": "^1.21.0",
-		"eslint-plugin-vue": "^9.15.1"
-	},
-	"peerDependencies": {
-		"eslint": ">=8.40.0",
-		"prettier": "^3.0.0"
-	}
+  "name": "@flynoe/eslint-config-vue",
+  "version": "1.0.0",
+  "author": "Flynoe <hi@flynoe.com> (https://flynoe.com)",
+  "description": "Flynoe's eslint config for vue.",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-vue",
+    "vue"
+  ],
+  "homepage": "https://github.com/flynoe/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flynoe/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flynoe/eslint-config/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "eslint-plugin-vue"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@flynoe/eslint-config-ts": "workspace:*",
+    "eslint-define-config": "^1.21.0",
+    "eslint-plugin-vue": "^9.15.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.40.0",
+    "prettier": "^3.0.0"
+  }
 }

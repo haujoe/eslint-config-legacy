@@ -1,36 +1,36 @@
 {
-	"name": "@flynoe/eslint-config-svelte",
-	"version": "1.0.0",
-	"author": "Flynoe <hi@flynoe.com> (https://flynoe.com)",
-	"description": "Flynoe's eslint config for svelte.",
-	"keywords": [
-		"eslint",
-		"eslint-config",
-		"eslint-svelte",
-		"svelte"
-	],
-	"homepage": "https://github.com/flynoe/eslint-config#readme",
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/flynoe/eslint-config.git"
-	},
-	"bugs": {
-		"url": "https://github.com/flynoe/eslint-config/issues"
-	},
-	"license": "MIT",
-	"main": "index.js",
-	"files": [
-		"index.js"
-	],
-	"publishConfig": {
-		"access": "public"
-	},
-	"dependencies": {
-		"@flynoe/eslint-config-ts": "workspace:*",
-		"eslint-define-config": "^1.21.0"
-	},
-	"peerDependencies": {
-		"eslint": ">=8.40.0",
-		"prettier": "^3.0.0"
-	}
+  "name": "@flynoe/eslint-config-svelte",
+  "version": "1.0.0",
+  "author": "Flynoe <hi@flynoe.com> (https://flynoe.com)",
+  "description": "Flynoe's eslint config for svelte.",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-svelte",
+    "svelte"
+  ],
+  "homepage": "https://github.com/flynoe/eslint-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flynoe/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/flynoe/eslint-config/issues"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@flynoe/eslint-config-ts": "workspace:*",
+    "eslint-define-config": "^1.21.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.40.0",
+    "prettier": "^3.0.0"
+  }
 }

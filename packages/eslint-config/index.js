@@ -1,6 +1,6 @@
 // @ts-check
-const { defineConfig } = require("eslint-define-config");
+const { defineConfig } = require('eslint-define-config')
 
 module.exports = defineConfig({
-	extends: ["@flynoe/eslint-config-vue"],
-});
+  extends: ['@flynoe/eslint-config-vue'],
+})
