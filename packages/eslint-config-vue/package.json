@@ -1,6 +1,6 @@
 {
   "name": "@flynoe/eslint-config-vue",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": "Flynoe <hi@flynoe.com> (https://flynoe.com)",
   "description": "Flynoe's eslint config for vue.",
   "keywords": [
