@@ -1,6 +1,6 @@
 {
   "name": "@flynoe/eslint-config-solid",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Flynoe <hi@flynoe.com> (https://flynoe.com)",
   "description": "Flynoe's eslint config for solid.",
   "keywords": [
