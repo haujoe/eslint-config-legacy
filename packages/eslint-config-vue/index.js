@@ -1,4 +1,5 @@
 const { defineConfig } = require('eslint-define-config')
+const { rules: prettierRules } = require('eslint-config-prettier')
 const { getPackageInfoSync } = require('local-pkg')
 
 const pkg = getPackageInfoSync('vue')
@@ -46,8 +47,12 @@ module.exports = defineConfig({
   extends: [
     vueVersion === 3 ? 'plugin:vue/vue3-recommended' : 'plugin:vue/recommended',
     '@flynoe/eslint-config-ts',
+    'plugin:yml/prettier'
   ],
+  plugins: ['prettier'],
   rules: {
+    ...prettierRules,
+    'prettier/prettier': 'warn',
     'vue/max-attributes-per-line': 'off',
     'vue/no-v-html': 'off',
     'vue/multi-word-component-names': 'off',

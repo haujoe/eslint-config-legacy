@@ -470,7 +470,7 @@ module.exports = defineConfig({
     'unicorn/prefer-text-content': 'error',
     'unicorn/prefer-type-error': 'error',
     'unicorn/prefer-node-protocol': 'error',
-    'unicorn/prevent-abbreviations': 'error',
+    'unicorn/prevent-abbreviations': 'off',
     'unicorn/throw-new-error': 'error',
     'unicorn/no-useless-spread': 'error',
     'unicorn/prefer-spread': 'error',

@@ -29,7 +29,11 @@
     "@flynoe/eslint-config-ts": "workspace:*",
     "eslint-define-config": "^1.21.0",
     "eslint-plugin-vue": "^9.15.1",
-    "local-pkg": "^0.4.3"
+    "local-pkg": "^0.4.3",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-yml": "^1.8.0",
+    "prettier": "^3.0.0"
   },
   "peerDependencies": {
     "eslint": ">=8.40.0",
