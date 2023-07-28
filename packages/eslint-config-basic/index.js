@@ -17,7 +17,6 @@ module.exports = defineConfig({
 	reportUnusedDisableDirectives: true,
 	plugins: [
 		"@so1ve",
-		"@so1ve/sort-imports",
 		"@html-eslint",
 		"@unocss",
 		"jsdoc",
@@ -204,9 +203,6 @@ module.exports = defineConfig({
 		"import/no-unresolved": "off",
 		"import/no-absolute-path": "off",
 		"import/namespace": "off", // Disable this for better performance
-
-		"@so1ve/sort-imports/imports": ["error"],
-		"@so1ve/sort-imports/exports": "error",
 
 		// array-func
 		"array-func/prefer-array-from": "off",
