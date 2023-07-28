@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "@flynoe/eslint-config-basic": "workspace:*",
+    "@so1ve/eslint-plugin": "^0.116.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "eslint-define-config": "^1.21.0",
@@ -41,8 +42,6 @@
     "@types/node": "^18.16.6"
   },
   "peerDependencies": {
-    "eslint": ">=8.40.0",
-    "prettier": "^3.0.0",
-    "typescript": ">=3.9"
+    "eslint": ">=8.45.0"
   }
 }
