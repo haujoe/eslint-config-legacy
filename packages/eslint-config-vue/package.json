@@ -28,7 +28,8 @@
   "dependencies": {
     "@flynoe/eslint-config-ts": "workspace:*",
     "eslint-define-config": "^1.21.0",
-    "eslint-plugin-vue": "^9.15.1"
+    "eslint-plugin-vue": "^9.15.1",
+    "local-pkg": "^0.4.3"
   },
   "peerDependencies": {
     "eslint": ">=8.40.0",
